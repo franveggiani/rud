@@ -39,6 +39,7 @@ public class DireccionServiceImpl extends BaseServiceImpl<DireccionVPD, Long> im
                 direccionProperties.put("nomenclatura", direccion.getRUD_direccion_nomencla());
                 direccionProperties.put("nomenclaturaParcela", direccion.getRUD_parcela_nomencla());
                 direccionProperties.put("padronParcela", direccion.getPAD_padron_direccion_id());
+                //Agregar más propiedades según sea necesario
 
                 Feature feature = new Feature(geometry, direccionProperties);
 
