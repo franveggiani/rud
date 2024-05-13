@@ -1,4 +1,6 @@
-package com.divisiongis.rud.Entity;
+package com.divisiongis.rud.Entity.patrones_direcciones;
+
+import com.divisiongis.rud.Entity.BaseEntity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

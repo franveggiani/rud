@@ -1,6 +1,5 @@
 package com.divisiongis.rud.Entity.GeoJSON;
 
-import jakarta.persistence.Entity;
 import lombok.*;
 
 import java.util.HashMap;

@@ -1,11 +1,12 @@
 package com.divisiongis.rud.Service;
 
-import com.divisiongis.rud.Entity.DireccionVPD;
 import com.divisiongis.rud.Entity.GeoJSON.Feature;
 import com.divisiongis.rud.Entity.GeoJSON.FeatureCollection;
 import com.divisiongis.rud.Entity.GeoJSON.Geometry;
+import com.divisiongis.rud.Entity.patrones_direcciones.DireccionVPD;
 import com.divisiongis.rud.Repository.BaseRepository;
-import com.divisiongis.rud.Repository.DireccionRepository;
+import com.divisiongis.rud.Repository.padrones_direcciones.DireccionRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +20,7 @@ public class DireccionServiceImpl extends BaseServiceImpl<DireccionVPD, Long> im
     @Autowired
     protected DireccionRepository direccionRepository;
 
-    public DireccionServiceImpl(BaseRepository baseRepository, DireccionRepository direccionRepository) {
+    public DireccionServiceImpl(BaseRepository<DireccionVPD, Long> baseRepository, DireccionRepository direccionRepository) {
         super(baseRepository);
         this.direccionRepository = direccionRepository;
     }
