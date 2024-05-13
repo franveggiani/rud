@@ -1,6 +1,6 @@
 package com.divisiongis.rud.Repository.padrones_direcciones;
 
-import com.divisiongis.rud.Entity.patrones_direcciones.DireccionVPD;
+import com.divisiongis.rud.Entity.padrones_direcciones.DireccionVPD;
 import com.divisiongis.rud.Repository.BaseRepository;
 
 import org.springframework.data.jpa.repository.Query;

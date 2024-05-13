@@ -1,6 +1,5 @@
 package com.divisiongis.rud.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,11 +12,11 @@ import com.divisiongis.rud.Repository.catastro.CapasCartografiaRepository;
 @Service
 public class CapasCartografiaServiceImpl extends BaseServiceImpl<CapasCartografia, Long> implements CapasCartografiaService {
 
+    @Autowired
     protected CapasCartografiaRepository capasCartografiaRepository;
 
-    @Autowired
-    public CapasCartografiaServiceImpl(CapasCartografiaRepository capasCartografiaRepository){
-        super(capasCartografiaRepository);
+    public CapasCartografiaServiceImpl(BaseRepository baseRepository, CapasCartografiaRepository capasCartografiaRepository){ 
+        super(baseRepository);
         this.capasCartografiaRepository = capasCartografiaRepository;
     }
 

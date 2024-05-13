@@ -1,4 +1,4 @@
-package com.divisiongis.rud.Entity.patrones_direcciones;
+package com.divisiongis.rud.Entity.padrones_direcciones;
 
 import com.divisiongis.rud.Entity.BaseEntity;
 

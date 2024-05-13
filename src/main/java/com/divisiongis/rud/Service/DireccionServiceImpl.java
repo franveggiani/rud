@@ -3,7 +3,7 @@ package com.divisiongis.rud.Service;
 import com.divisiongis.rud.Entity.GeoJSON.Feature;
 import com.divisiongis.rud.Entity.GeoJSON.FeatureCollection;
 import com.divisiongis.rud.Entity.GeoJSON.Geometry;
-import com.divisiongis.rud.Entity.patrones_direcciones.DireccionVPD;
+import com.divisiongis.rud.Entity.padrones_direcciones.DireccionVPD;
 import com.divisiongis.rud.Repository.BaseRepository;
 import com.divisiongis.rud.Repository.padrones_direcciones.DireccionRepository;
 

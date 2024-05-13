@@ -1,6 +1,6 @@
 package com.divisiongis.rud.Controller;
 
-import com.divisiongis.rud.Entity.patrones_direcciones.DireccionVPD;
+import com.divisiongis.rud.Entity.padrones_direcciones.DireccionVPD;
 import com.divisiongis.rud.Service.DireccionServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
